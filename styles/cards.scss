@@ -1,0 +1,85 @@
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: $block-color;
+  box-shadow: $block-shadow;
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 33px 140px 0 140px;
+    color: $text-color;
+
+    &-main {
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 43px;
+    }
+    &-sub {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      opacity: 0.8;
+    }
+  }
+
+  &__price {
+    height: 105px;
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 105px;
+    text-align: center;
+    color: $text-color;
+  }
+
+  &__description {
+    margin: 40px 26px 0 26px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: $text-color;
+    opacity: 0.8;
+  }
+
+  &__options-list {
+    margin: 40px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+
+    font-weight: 300;
+    opacity: 0.8;
+    font-size: 15px;
+    line-height: 18px;
+    color: $text-color;
+
+    &-item {
+      display: flex;
+      align-items: center;
+    }
+
+    &-item:nth-child(odd) {
+      background-color: $odd-list-color;
+    }
+
+    &-img {
+      margin: 18px 22px 19px 22px;
+    }
+  }
+
+  &__order-btn {
+    width: 154px;
+    height: 40px;
+    margin: 39px 113px 40px 112px;
+    border-radius: 20px;
+    border: 0;
+
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: $text-color;
+    opacity: 0.8;
+  }
+}

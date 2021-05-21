@@ -1,0 +1,24 @@
+.badge-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.badge {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  background-color: $tag-color;
+  transform: rotate(45deg);
+
+  &__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 147px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: $text-color;
+  }
+}
