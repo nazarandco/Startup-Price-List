@@ -1,6 +1,6 @@
 # Startup-Price-List
 
-### [Site link](https://nazarandco.github.io/Startup-Website/)
+### [Site link](https://nazarandco.github.io/Startup-Price-List/)
 
 Layout supports desktop (up-to-1400) version
 
