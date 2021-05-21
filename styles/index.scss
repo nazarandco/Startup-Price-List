@@ -7,8 +7,9 @@
 * {
   box-sizing: border-box;
 }
-body {
+html {
+  width: 1440px;
+  height: 1000px;
   font-family: 'Montserrat', sans-serif;
   background-color: $page-color;
-  margin: 0;
 }
