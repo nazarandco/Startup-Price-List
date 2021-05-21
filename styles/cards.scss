@@ -1,6 +1,7 @@
 .price-card {
   width: 380px;
   height: 770px;
+  margin-right: 18px;
   background-color: $block-color;
   box-shadow: $block-shadow;
 
@@ -82,4 +83,8 @@
     color: $text-color;
     opacity: 0.8;
   }
+}
+
+.price-card:last-child {
+  margin-right: 0;
 }
